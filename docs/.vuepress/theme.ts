@@ -80,12 +80,12 @@ export default hopeTheme({
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
-      GitHub: "https://github.com/Mister-Hope",
-      Gitee: "https://gitee.com/Mister-Hope",
-      BiliBili: "https://space.bilibili.com/630395917",
-      QQ: "http://wpa.qq.com/msgrd?v=3&uin=1178522294&site=qq&menu=yes",
-      Gmail: "mailto:mister-hope@outlook.com",
-      Steam: "https://steamcommunity.com/id/Mr-Hope/",
+      GitHub: "https://github.com/",
+      Gitee: "https://gitee.com/",
+      BiliBili: "https://space.bilibili.com/",
+      QQ: "http://wpa.qq.com/",
+      //Gmail: "mailto:mister-hope@outlook.com",
+      Steam: "https://steamcommunity.com/",
     },
   },
 
