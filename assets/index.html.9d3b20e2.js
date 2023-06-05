@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper.21dcd24c.js";import{o as a,c as r,b as e,d}from"./app.d08d95e4.js";const o={},c=e("h1",{id:"live2d",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#live2d","aria-hidden":"true"},"#"),d(" live2d")],-1),i=[c];function n(s,_){return a(),r("div",null,i)}var f=t(o,[["render",n],["__file","index.html.vue"]]);export{f as default};
