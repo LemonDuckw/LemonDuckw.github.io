@@ -8,7 +8,7 @@ export const sidebarSorter = function (infoA: HopeThemeSidebarInfo, infoB: HopeT
   let sidebarSorters = defaultSorter;
   if (infoA.type === "file" && infoB.type === "file") {
     if (infoA.path.match("^\\d{4}-\\d{2}-\\d{2}\\D") && infoB.path.match("^\\d{4}-\\d{2}-\\d{2}\\D")) {
-      // 如果是随笔的页面才使用日期降序进行排序（随笔页面文件命名以日期开头）
+      // 如果是日记的页面才使用日期降序进行排序（日记页面文件命名以日期开头）
       infoA.frontmatter = { date: new Date(infoA.path.substring(0, 10)) };
       infoB.frontmatter = { date: new Date(infoB.path.substring(0, 10)) };
       sidebarSorters = noteSorter;

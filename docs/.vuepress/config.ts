@@ -13,9 +13,9 @@ export default defineUserConfig({
   //网站语言，默认为中文
   lang: "zh-CN",
   //网站标题
-  title: "TrystanLei",
+  title: "一只鸭子开的咖啡馆",
   //网站描述
-  description: "积累点滴，汇聚成溪。",
+  description: "嘎嘎~",
 
   //网站路径，默认为 /，如果非主域名，需改为
   base: "/",
@@ -44,10 +44,11 @@ export default defineUserConfig({
       id: "G-KX30ZNTZ11",
     }),
     //rss 订阅描述
-    feedPlugin({
-      hostname: "https://timpcfan.site",
-      rss: true,
-      count: 10,
-    }),
+    // feedPlugin({
+    //   hostname: "https://timpcfan.site",
+    //   rss: true,
+    //   count: 10,
+    // }),
   ],
 });
+

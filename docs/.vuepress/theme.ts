@@ -10,12 +10,12 @@ export default hopeTheme({
   hostname: "https://timpcfan.site",
 
   author: {
-    name: "TrystanLei",
+    name: "柠檬鸭",
     url: "https://timpcfan.site",
   },
 
   iconAssets: "iconfont",
-  logo: "/avatar_self.webp",
+  logo: "/duck1.png",
 
   //是否全局启用路径导航
   breadcrumb: true,
@@ -61,6 +61,7 @@ export default hopeTheme({
 
   // sidebar
   sidebar: sidebar,
+  headerDepth:1,
 
   footer: '本站原创内容基于 <a class="underline" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 共享, 转载请注明出处。',
 
@@ -72,19 +73,19 @@ export default hopeTheme({
   //https://vuepress-theme-hope.github.io/v2/zh/config/theme/feature.html
   blog: {
     articleInfo: ["Date", "Category", "Tag", "ReadingTime", "PageView"],
-    name: "TrystanLei",
-    avatar: "/avatar_self.webp",
-    description: "汇聚点滴，凝聚成溪",
+    name: "柠檬鸭",
+    //设置头像
+    avatar: "/avatar/dog3.webp",
+    description: "一只努力学编程的鸭（嘎",
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
-      Gitee: "https://gitee.com/timpcfan/",
-      GitHub: "https://github.com/timpcfan",
-      即刻: ["https://okjk.co/35j8Zv", path.resolve(__dirname, "icons/okjk.svg")],
-      Twitter: "https://twitter.com/timpcfan",
-      Telegram: ["https://t.me/timpcfan", path.resolve(__dirname, "icons/telegram.svg")],
-      Email: "mailto:lztsmail@gmail.com",
-      RSS: "https://timpcfan.site/rss.xml",
+      GitHub: "https://github.com/Mister-Hope",
+      Gitee: "https://gitee.com/Mister-Hope",
+      BiliBili: "https://space.bilibili.com/630395917",
+      QQ: "http://wpa.qq.com/msgrd?v=3&uin=1178522294&site=qq&menu=yes",
+      Gmail: "mailto:mister-hope@outlook.com",
+      Steam: "https://steamcommunity.com/id/Mr-Hope/",
     },
   },
 
@@ -95,30 +96,30 @@ export default hopeTheme({
     },
 
     //评论配置
-    comment: {
-      //部署 Waline：https://waline.js.org/guide/get-started.html
-      provider: "Waline",
-      serverURL: "https://waline.timpcfan.site",
-      pageview: true,
-      //Waline 等级标签
-      walineLocales: {
-        "/": {
-          admin: "站长",
-          level0: "锻体",
-          level1: "炼气",
-          level2: "筑基",
-          level3: "金丹",
-          level4: "元婴",
-          level5: "化神",
-        },
-      },
-      //Giscus 备用配置
-      //provider: "Giscus",
-      //repo: "rockbenben/LearnData",
-      //repoId: "R_kgDOHdfk6Q",
-      //category: "Comments",
-      //categoryId: "DIC_kwDOHdfk6c4CQYNn",
-    },
+    // comment: {
+    //   //部署 Waline：https://waline.js.org/guide/get-started.html
+    //   provider: "Waline",
+    //   serverURL: "https://waline.timpcfan.site",
+    //   pageview: true,
+    //   //Waline 等级标签
+    //   walineLocales: {
+    //     "/": {
+    //       admin: "站长",
+    //       level0: "锻体",
+    //       level1: "炼气",
+    //       level2: "筑基",
+    //       level3: "金丹",
+    //       level4: "元婴",
+    //       level5: "化神",
+    //     },
+    //   },
+    //   //Giscus 备用配置
+    //   //provider: "Giscus",
+    //   //repo: "rockbenben/LearnData",
+    //   //repoId: "R_kgDOHdfk6Q",
+    //   //category: "Comments",
+    //   //categoryId: "DIC_kwDOHdfk6c4CQYNn",
+    // },
 
     mdEnhance: {
       enableAll: false,

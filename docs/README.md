@@ -3,12 +3,12 @@
 home: true
 layout: Blog
 icon: home
-bgImage: //file.mo7.cc/api/public/bz?idx=1
+bgImage: http://file.mo7.cc/api/public/bz
 title: 主页
-heroImage: /avatar_self.webp
-heroText: TrystanLei
+heroImage: /duck1.png
+heroText: 柠檬鸭
 heroFullScreen: true
-tagline: 只要不失去你的崇高，整个世界都会为你敞开
+tagline: 人活着呢，最重要的就是开心~
 
 projects:
 - icon: link
